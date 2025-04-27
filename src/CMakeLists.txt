@@ -1,0 +1,14 @@
+add_executable(
+        archiver
+        archiver.cpp
+        reader.cpp
+        reader.h
+        encoder.cpp
+        encoder.h
+        huffman_tree.cpp
+        huffman_tree.h
+        decoder.cpp
+        decoder.h
+        bit_stream.cpp
+        bit_stream.h
+)
